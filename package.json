@@ -1,0 +1,27 @@
+{
+  "name": "lieblingsrezepte",
+  "version": "1.0.0",
+  "description": "11ty based website for some of my favorite recipes",
+  "main": "index.html",
+  "author": "Felix Manke",
+  "private": "true",
+  "engines": {
+    "node": "16"
+  },
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "dev": "npx @11ty/eleventy --serve"
+  },
+  "keywords": [
+    "11ty"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "1.0.0",
+    "eleventy-plugin-error-overlay": "^1.0.0",
+    "html-minifier": "^4.0.0"
+  },
+  "resolutions": {
+    "async": "2.6.4"
+  }
+}
