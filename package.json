@@ -2,24 +2,32 @@
   "name": "lieblingsrezepte",
   "version": "1.0.0",
   "description": "11ty based website for some of my favorite recipes",
-  "main": "index.html",
   "author": "Felix Manke",
   "private": "true",
+  "keywords": [
+    "11ty",
+    "markdown",
+    "website"
+  ],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fmstuff/lieblingsrezepte.git"
+  },
   "engines": {
     "node": "16"
   },
   "scripts": {
-    "build": "npx @11ty/eleventy",
-    "dev": "npx @11ty/eleventy --serve"
+    "clean": "rimraf dist",
+    "build": "yarn clean && npx @11ty/eleventy",
+    "dev": "npx @11ty/eleventy --serve",
+    "start": "yarn dev"
   },
-  "keywords": [
-    "11ty"
-  ],
-  "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "1.0.0",
-    "eleventy-plugin-error-overlay": "^1.0.0",
-    "html-minifier": "^4.0.0"
+    "eleventy-plugin-error-overlay": "1.0.0",
+    "html-minifier": "4.0.0",
+    "rimraf": "3.0.2"
   },
   "resolutions": {
     "async": "2.6.4"

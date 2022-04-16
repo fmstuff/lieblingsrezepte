@@ -1,5 +1,8 @@
-# Content header
+# Lieblingsrezepte 💚 🍽 🍷
 
-Content will go here... ❤️
+Hier findest du eine Sammlung unserer Lieblingsrezepte - zumindest diejenigen,
+die wir auch selber gerne mal kochen 😉
 
-Go to 👉 [Another page](another-page) 👈
+## Rezepte
+
+- [One-Pot Nudeln Risotto Style mit Salsiccia, Zucchini und Käse](./rezepte/one-pot-pasta-risotto-style)
