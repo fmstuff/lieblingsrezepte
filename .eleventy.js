@@ -3,7 +3,10 @@ const ErrorOverlay = require("eleventy-plugin-error-overlay");
 
 module.exports = (eleventyConfig) => {
   // adding image file types is necessary, otherwise 11ty won't copy them during build
-  eleventyConfig.setTemplateFormats(["md", "jpg", "jpeg", "png", "gif"]);
+  eleventyConfig.setTemplateFormats(["md", "njk", "jpg", "jpeg", "png", "gif"]);
+
+  // rebuild on CSS changes
+  eleventyConfig.addWatchTarget("./content/_includes/css/");
 
   // ErrorOverlay shows 11ty build errors in the web browser during development
   eleventyConfig.addPlugin(ErrorOverlay);
@@ -27,6 +30,7 @@ module.exports = (eleventyConfig) => {
       output: "dist",
       layouts: "_layouts",
       data: "_data",
+      includes: "_includes",
     },
   };
 };

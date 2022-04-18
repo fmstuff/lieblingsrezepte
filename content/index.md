@@ -1,3 +1,7 @@
+---
+layout: "default.njk"
+---
+
 # Lieblingsrezepte 💚 🍽 🍷
 
 Hier findest du eine Sammlung unserer Lieblingsrezepte - zumindest diejenigen,

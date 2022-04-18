@@ -6,15 +6,11 @@
     <title>
       {{ site.config.title }}
     </title>
-    <style>
-      img {
-        max-width: 50%
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <script defer src="https://unpkg.com/alpinejs@3.9.6/dist/cdn.min.js"></script>
   </head>
 
   <body>
-    <a href="/">Home</a>
-    {{ content }}
+  {{ content | safe }}
   </body>
 </html>

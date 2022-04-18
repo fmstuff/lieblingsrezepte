@@ -1,0 +1,30 @@
+---
+layout: base.njk
+---
+{% include "./components/navigation.njk" %}
+
+{% if title %}
+  <h1>{{ title }}</h1>
+{% endif %}
+
+{% if picture %}
+<img src="{{ picture }}" />
+{% endif %}
+
+{% if zutaten %}
+<div x-data="{ people: {{personen}} }">
+  <h2>ZUTATEN</h2>
+  Anzahl Personen: 
+  <span x-text="people"></span>
+  <button x-on:click="people++">+</button>
+  <button x-on:click="people > 1 ? people-- : people">-</button>
+
+  <ul>
+    {% for zutat in zutaten %}
+    <li><span x-text="((({{ zutat.amount}}/{{ personen}} * people)*100).toFixed())/100"></span> {{zutat.unit}} {{ zutat.title}}</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+{{ content | safe }}

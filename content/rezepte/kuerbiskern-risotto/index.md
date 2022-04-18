@@ -1,25 +1,46 @@
-# Kürbisrisotto mit Serrano-Chips & Cashewkernen
-
-![](kürbisrisotto.jpg)
-
-ZUTATEN (für 4 Personen)
-========================
-- 1 Hokkaido Kürbis
-- 8 Zweige frischer Thymian
-- 2 Schalotten
-- 100 g Cashewkerne (ungesalzen)
-- 80 g Parmesan
-- 80-100 g Serrano Schinken
-- 300 g Risotto Reis
-- 1,5 bis 1,75 Liter Gemüsebrühe
-- 200 ml Weißwein
-- Muskatnuss
-- 60 g Butter
-- Olivenöl
-- 2 Zehen Knoblauch
-- Kürbiskernöl
-- Salz
-- Pfeffer
+---
+title: Kürbisrisotto mit Serrano-Chips & Cashewkernen
+picture: "kürbisrisotto.jpg"
+personen: 4
+zutaten:
+  - title: Hokkaido Kürbis
+    amount: 1
+    unit: 
+  - title: frischer Thymian
+    amount: 8
+    unit: Zweige
+  - title: Schalotten
+    amount: 2
+  - title: Cashewkerne (ungesalzen)
+    amount: 100
+    unit: g
+  - title: Parmesan
+    amount: 80
+    unit: g
+  - title: Serrano Schinken
+    amount: 100
+    unit: g
+  - title: Risotto Reis
+    amount: 300
+    unit: g
+  - title: Gemüsebrühe
+    amount: 1.75
+    unit: Liter
+  - title: Weißwein
+    amount: 200
+    unit: ml
+  - title: Muskatnuss
+  - title: Butter
+    amount: 60
+    unit: g
+  - title: Olivenöl
+  - title: Knoblauch
+    amount: 2
+    unit: Zehen
+  - title: Kürbiskernöl
+  - title: Salz
+  - title: Pfeffer
+---
 
 ZUBEREITUNG
 ===========
