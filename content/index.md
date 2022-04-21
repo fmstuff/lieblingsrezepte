@@ -1,4 +1,8 @@
-# Lieblingsrezepte 💚 🍽 🍷
+---
+layout: page.njk
+---
+
+# Lieblingsrezepte 🍽 🍷
 
 Hier findest du eine Sammlung unserer Lieblingsrezepte - zumindest diejenigen,
 die wir auch selber gerne mal kochen 😉
