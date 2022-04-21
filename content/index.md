@@ -1,8 +1,8 @@
 ---
-layout: "default.njk"
+layout: page.njk
 ---
 
-# Lieblingsrezepte 💚 🍽 🍷
+# Lieblingsrezepte 🍽 🍷
 
 Hier findest du eine Sammlung unserer Lieblingsrezepte - zumindest diejenigen,
 die wir auch selber gerne mal kochen 😉

@@ -3,7 +3,19 @@ const ErrorOverlay = require("eleventy-plugin-error-overlay");
 
 module.exports = (eleventyConfig) => {
   // adding image file types is necessary, otherwise 11ty won't copy them during build
-  eleventyConfig.setTemplateFormats(["md", "njk", "jpg", "jpeg", "png", "gif"]);
+  eleventyConfig.setTemplateFormats(["md", "njk"]);
+
+  // Copy `img/` to `dist/img`
+  eleventyConfig.addPassthroughCopy("content/img");
+
+  // Copy `js/` to `dist/js`
+  eleventyConfig.addPassthroughCopy("content/js");
+
+  // Copy any image files from "rezepte" to `dist`, via Glob pattern
+  eleventyConfig.addPassthroughCopy("content/rezepte/**/*.jpg");
+  eleventyConfig.addPassthroughCopy("content/rezepte/**/*.jpeg");
+  eleventyConfig.addPassthroughCopy("content/rezepte/**/*.png");
+  eleventyConfig.addPassthroughCopy("content/rezepte/**/*.gif");
 
   // rebuild on CSS changes
   eleventyConfig.addWatchTarget("./content/_includes/css/");

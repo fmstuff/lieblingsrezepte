@@ -85,6 +85,8 @@ share them with the rest of the world 🍽
 ### Built With
 
 * [11ty][eleventy-url]
+* [Alpine.js][alpine-js-url]
+* [Bulma][bulma-url] 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -183,3 +185,5 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [license-url]: https://github.com/fmstuff/lieblingsrezepte/blob/master/LICENSE.txt
 [eleventy-url]: https://www.11ty.dev/
 [product-screenshot]: ./images/project_screenshot.png
+[alpine-js-url]: https://alpinejs.dev/
+[bulma-url]: https://bulma.io/
