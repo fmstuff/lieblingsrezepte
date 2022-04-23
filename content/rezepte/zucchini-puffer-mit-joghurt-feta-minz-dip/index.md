@@ -1,19 +1,39 @@
-# Zucchini Puffer mit Joghurt-Feta-Minz Dip
+---
+title: Zucchini Puffer mit Joghurt-Feta-Minz Dip
+picture: zucchini-puffer.png
 
-![](zucchini-puffer.png)
+tags: [rezept, lowcarb]
 
-ZUTATEN (für 2 Personen)  
-=====================  
-1 Ei  
-80 - 100 gr Feta  
-100 gr Minze  
-150 gr griechischer Joghurt  
-ein Spritzer Zitronensaft  
-1 Frühlingszwiebel  
-2 Große Zucchini (oder 3 kleine :-)  
-60 gr. Weizenmehl (6 Esslöffel)  
-Salz & Pfeffer zum Abschmecken  
-Öl zum Braten  
+zubereitungszeit: 45 Minuten
+aufwand: mittel
+
+lowcarb: ja
+vegetarisch: ja
+
+personen: 2
+zutaten:
+  - title: Ei  
+    amount: 1
+  - title: Feta  
+    amount: 100
+    unit: g
+  - title: Minze  
+    amount: 100
+    unit: g
+  - title: griechischer Joghurt  
+    amount: 150
+    unit: g
+  - title: Ein spritzer Zitronensaft  
+  - title: Frühlingszwiebel  
+    amount: 1
+  - title: große Zucchini
+    amount: 2
+  - title: Weizenmehl
+    amount: 6
+    unit: Esslöffel
+  - title: Salz & Pfeffer zum Abschmecken  
+  - title: Öl zum Braten  
+---
   
 ZUBEREITUNG  
 ============  

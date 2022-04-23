@@ -1,6 +1,15 @@
 ---
 title: Kürbisrisotto mit Serrano-Chips & Cashewkernen
 picture: "kürbisrisotto.jpg"
+
+tags: [rezept]
+
+zubereitungszeit: 1 Stunde
+aufwand: mittel
+
+lowcarb: nein
+vegetarisch: nein
+
 personen: 4
 zutaten:
   - title: Hokkaido Kürbis

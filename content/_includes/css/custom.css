@@ -1,4 +1,17 @@
-.recipe {
 
+body {
+  background-image: url('/img/bg_04.jpg');
+}
+.recipe {}
+
+.recipe img {
+  border-radius: 1em;
+}
+
+.image .recipeTeaser {
+  width: 800px;
+  height: 337px;
+  object-fit: cover;
+  border-radius: 1em;
 }
 
