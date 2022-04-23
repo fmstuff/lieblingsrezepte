@@ -182,7 +182,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [issues-shield]: https://img.shields.io/github/issues/fmstuff/lieblingsrezepte.svg?style=for-the-badge
 [issues-url]: https://github.com/fmstuff/lieblingsrezepte/issues
 [license-shield]: https://img.shields.io/github/license/fmstuff/lieblingsrezepte.svg?style=for-the-badge
-[license-url]: https://github.com/fmstuff/lieblingsrezepte/blob/master/LICENSE.txt
+[license-url]: https://github.com/fmstuff/lieblingsrezepte/blob/main/LICENSE.txt
 [eleventy-url]: https://www.11ty.dev/
 [product-screenshot]: ./images/project_screenshot.png
 [alpine-js-url]: https://alpinejs.dev/

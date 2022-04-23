@@ -1,8 +1,7 @@
 
 body {
-  background-image: url('/img/bg_04.jpg');
+  background-image: url('/img/bg_01.jpg');
 }
-.recipe {}
 
 .recipe img {
   border-radius: 1em;
@@ -14,4 +13,3 @@ body {
   object-fit: cover;
   border-radius: 1em;
 }
-
