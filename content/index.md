@@ -9,6 +9,20 @@ die wir auch selber gerne mal kochen 😉
 
 ## Rezepte
 
-- [One-Pot Nudeln Risotto Style mit Salsiccia, Zucchini und Käse](./rezepte/one-pot-pasta-risotto-style/)
-- [Kürbisrisotto mit Serrano-Chips & Cashewkernen](./rezepte/kuerbiskern-risotto/)
-- [Zucchini Puffer mit Joghurt-Feta-Minz Dip](./rezepte/zucchini-puffer-mit-joghurt-feta-minz-dip/)
+<ul>
+{%- for rezept in collections.rezept -%}
+  <li>
+    <a href="{{ rezept.url }}">{{ rezept.data.title }}</a>
+  </li>
+{%- endfor -%}
+</ul>
+
+## Low Carb Rezepte
+
+<ul>
+{%- for rezept in collections.lowcarb -%}
+  <li>
+    <a href="{{ rezept.url }}">{{ rezept.data.title }}</a>
+  </li>
+{%- endfor -%}
+</ul>

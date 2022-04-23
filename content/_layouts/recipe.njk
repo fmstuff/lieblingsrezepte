@@ -7,10 +7,37 @@ layout: page.njk
 {% endif %}
 
 {% if picture %}
-<figure class="image is-4by3">
+<figure class="image">
   <img class="recipeTeaser" src="{{ picture }}" />
 </figure>
 {% endif %}
+
+<nav class="level">
+  <div class="level-item has-text-centered">
+    <div>
+      <p class="heading">Anzahl Zutaten</p>
+      <p class="title">{{ zutaten | length }}</p>
+    </div>
+  </div>
+  <div class="level-item has-text-centered">
+    <div>
+      <p class="heading">Zubereitungszeit</p>
+      <p class="title">{{ zubereitungszeit }}</p>
+    </div>
+  </div>
+  <div class="level-item has-text-centered">
+    <div>
+      <p class="heading">Aufwand</p>
+      <p class="title">{{ aufwand }}</p>
+    </div>
+  </div>
+  <!-- <div class="level-item has-text-centered">
+    <div>
+      <p class="heading">Lowcarb</p>
+      <p class="title">{{ lowcarb }}</p>
+    </div>
+  </div> -->
+</nav>
 
 {% if zutaten %}
   <div x-data="{ people: {{personen}} }">
@@ -22,7 +49,12 @@ layout: page.njk
 
     <ul>
       {% for zutat in zutaten %}
-      <li><span x-text="((({{ zutat.amount}}/{{ personen}} * people)*100).toFixed())/100"></span> {{zutat.unit}} {{ zutat.title}}</li>
+      <li>
+        {% if zutat.amount %}
+        <span x-text="((({{ zutat.amount }}/{{ personen}} * people)*100).toFixed())/100"></span>
+        {% endif %} 
+        {{zutat.unit}} {{ zutat.title}}
+      </li>
       {% endfor %}
     </ul>
   </div>
