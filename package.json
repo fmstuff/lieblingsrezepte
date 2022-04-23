@@ -14,16 +14,16 @@
     "type": "git",
     "url": "https://github.com/fmstuff/lieblingsrezepte.git"
   },
-  "type": "module",
   "engines": {
     "node": "16"
   },
   "scripts": {
     "clean": "rimraf dist",
     "build": "yarn clean && npx @11ty/eleventy",
+    "build:prod": "yarn clean && npx @11ty/eleventy --pathprefix=lieblingsrezepte",
     "dev": "npx @11ty/eleventy --serve",
     "start": "yarn dev",
-    "deploy": "node ./gh-pages.js"
+    "deploy": "yarn build:prod && node ./gh-pages.js"
   },
   "devDependencies": {
     "@11ty/eleventy": "1.0.0",

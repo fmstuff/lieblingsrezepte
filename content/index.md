@@ -16,11 +16,11 @@ die wir auch selber gerne mal kochen 😉
 <div class="columns is-multiline">
 {%- for rezept in collections.rezept -%}
   <div class="column is-one-third">
-    <a href="{{ rezept.url }}">
+    <a href="{{ rezept.url | url }}">
       <div class="card">
         <div class="card-image">
           <figure class="image">
-            <img class="teaser" src="{{ rezept.url }}{{ rezept.data.picture }}" alt="Placeholder image">
+            <img class="teaser" src="{{ rezept.url | url }}{{ rezept.data.picture }}" alt="Placeholder image">
           </figure>
         </div>
         <div class="card-content">
@@ -37,11 +37,11 @@ die wir auch selber gerne mal kochen 😉
 <div class="columns is-multiline">
 {%- for rezept in collections.lowcarb -%}
   <div class="column is-one-third">
-    <a href="{{ rezept.url }}">
+    <a href="{{ rezept.url | url }}">
       <div class="card">
         <div class="card-image">
           <figure class="image">
-            <img class="teaser" src="{{ rezept.url }}{{ rezept.data.picture }}" alt="Placeholder image">
+            <img class="teaser" src="{{ rezept.url | url }}{{ rezept.data.picture }}" alt="Placeholder image">
           </figure>
         </div>
         <div class="card-content">

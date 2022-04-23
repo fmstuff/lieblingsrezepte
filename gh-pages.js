@@ -1,7 +1,7 @@
-import { publish } from "gh-pages";
+const ghPages = require("gh-pages");
 
 console.log("Deploying now...");
 
-publish("dist", () => {
+ghPages.publish("dist", () => {
   console.log("Deploy Complete!");
 });
