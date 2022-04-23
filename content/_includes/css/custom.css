@@ -13,3 +13,12 @@ body {
   object-fit: cover;
   border-radius: 1em;
 }
+
+.image .teaser {
+  height: 160px;
+  object-fit: cover;
+}
+
+.box {
+  border-radius: 1em;
+}
