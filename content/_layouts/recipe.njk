@@ -36,10 +36,16 @@ layout: page.njk
 {% if zutaten %}
   <div class="box" x-data="{ people: {{personen}} }">
     <h1 class="title">ZUTATEN</h1>
-    Anzahl Personen: 
-    <span x-text="people"></span>
-    <button x-on:click="people++">+</button>
-    <button x-on:click="people > 1 ? people-- : people">-</button>
+    
+    <div class="is-flex is-align-items-center">
+      <div class="mr-2">
+        <p class="subtitle">Portionen: <span class="subtitle" x-text="people"></span></p>
+      </div>
+      <div class="m-2">
+        <button class="button is-rounded is-primary is-outlined" x-on:click="people++">+</button>
+        <button class="button is-rounded is-primary is-outlined" x-on:click="people > 1 ? people-- : people">-</button>
+      </div>
+    </div>
 
     <ul>
       {% for zutat in zutaten %}
