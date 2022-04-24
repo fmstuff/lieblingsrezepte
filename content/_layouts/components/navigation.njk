@@ -1,7 +1,7 @@
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item" href="/">
-      <img src="/img/logo.png" width="112" height="28">
+    <a class="navbar-item" href="{{ '/' | url }}">
+      <img src="{{ '/img/logo.png' | url }}" width="112" height="28">
     </a>
 
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
@@ -13,11 +13,11 @@
 
   <div id="navbar" class="navbar-menu">
     <div class="navbar-start">
-      <a href="/" class="navbar-item">
+      <a href="{{ '/' | url }}" class="navbar-item">
         Lieblingsrezepte
       </a>
 
-      <a href="/rezepte" class="navbar-item">
+      <a href="{{ '/rezepte' | url }}" class="navbar-item">
         Rezepte
       </a>
     </div>
