@@ -1,6 +1,6 @@
 ---
 title: Zucchini Puffer mit Joghurt-Feta-Minz Dip
-picture: zucchini-puffer.png
+picture: zucchini-puffer.jpg
 
 tags: [rezept, lowcarb]
 
