@@ -2,18 +2,10 @@
 layout: page.njk
 ---
 
-<div class="content">
-
-# Lieblingsrezepte 🍽 🍷
-
-Hier findest du eine Sammlung unserer Lieblingsrezepte, die wir auch selber gerne mal kochen 😉
-
-</div>
-
-<h3 class="title is-3">Rezepte</h3>
+<h3 class="title is-3">Low Carb Rezepte</h3>
 
 <div class="columns is-multiline">
-{%- for rezept in collections.rezept -%}
+{%- for rezept in collections.lowcarb -%}
   <div class="column is-one-third">
     <a href="{{ rezept.url | url }}">
       <div class="card">

@@ -2,7 +2,7 @@
 title: Zucchini Puffer mit Joghurt-Feta-Minz Dip
 picture: zucchini-puffer.jpg
 
-tags: [rezept, lowcarb]
+tags: [rezept, vegetarisch, lowcarb]
 
 zubereitungszeit: 45 Minuten
 aufwand: mittel
