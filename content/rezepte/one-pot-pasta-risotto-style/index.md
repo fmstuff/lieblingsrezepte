@@ -1,8 +1,8 @@
 ---
-title: One-Pot Nudeln Risotto Style mit Salsiccia, Zucchini und Käse
+title: One-Pot Nudeln mit Salsiccia, Zucchini und Käse
 picture: risotto-style-pasta.jpg
 
-tags: [rezept]
+tags: [rezept, soul-food]
 
 zubereitungszeit: 30 Minuten
 aufwand: mittel
