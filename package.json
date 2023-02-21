@@ -15,7 +15,7 @@
     "url": "https://github.com/fmstuff/lieblingsrezepte.git"
   },
   "engines": {
-    "node": "18"
+    "node": ">18"
   },
   "scripts": {
     "clean": "rimraf dist",
@@ -26,13 +26,10 @@
     "deploy": "yarn build:prod && node ./gh-pages.js"
   },
   "devDependencies": {
-    "@11ty/eleventy": "1.0.2",
+    "@11ty/eleventy": "2.0.0",
     "eleventy-plugin-error-overlay": "1.0.0",
     "gh-pages": "5.0.0",
     "html-minifier": "4.0.0",
     "rimraf": "4.1.2"
-  },
-  "resolutions": {
-    "ua-parser-js": "1.0.33"
   }
 }
