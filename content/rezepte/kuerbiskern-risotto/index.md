@@ -1,6 +1,6 @@
 ---
 title: Kürbisrisotto mit Serrano-Chips & Cashewkernen
-picture: "kürbisrisotto.jpg"
+picture: "kuerbisrisotto.jpg"
 
 tags: [rezept]
 

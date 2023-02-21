@@ -20,8 +20,7 @@
     11ty based website for some of my favorite recipes
     <br />
     <br />
-    <!-- TODO: link to actual website once deployed -->
-    <a href="https://github.com/fmstuff/lieblingsrezepte">View the Website</a>
+    <a href="https://fmstuff.github.io/lieblingsrezepte/">View the Website</a>
     ·
     <a href="https://github.com/fmstuff/lieblingsrezepte/issues">Report Bug</a>
     ·
@@ -64,8 +63,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<!-- TODO: link to actual website once deployed -->
-[![Product Name Screen Shot][product-screenshot]](https://github.com/fmstuff/lieblingsrezepte)
+[![Product Name Screen Shot][product-screenshot]](https://fmstuff.github.io/lieblingsrezepte/)
 
 Over the years my wife and I have been writing down recipes that we liked and
 loved to cook. Often we had done some slight alterations and/or simplifications
@@ -102,7 +100,7 @@ these steps.
 
 The following list of tools you need to have installed on your machine:
 
-* Node.js (v16), see: https://nodejs.org
+* Node.js (v18), see: https://nodejs.org
 * npm
   ```sh
   $ npm install npm@latest -g
